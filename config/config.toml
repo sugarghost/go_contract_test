@@ -1,0 +1,18 @@
+[server] ##nomal type
+port = ":8080"
+
+[contract]
+netUrl = "https://api.test.wemix.com"
+transactionHash = "0x309e82927b9356fbdf3961707dac4573f11e2ff0ce7412816a96d93ddf3f97fc"
+tokenAddress = "0x0341883aD50a4D6e89D733b9B1A185afA38e7798"
+constructorAddress = "0xC86C3c58e0eA6d0e159D883086fB5A9DA102aC09"
+
+[keyStore]
+path = "./keystore/keystore"
+
+[log]
+level = "debug" # debug or info
+fpath = "./logs/go-loger" # 로그가 생성될 경로 : ./logs, 로그파일명 go-loger_xxx.log
+msize = 2000    # 2g : megabytes
+mage = 7        # 7days
+mbackup = 5    # number of log files
