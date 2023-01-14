@@ -51,7 +51,7 @@ func TransferWemix() {
 	}
 
 	// 전송받을 상대방 address 설정
-	toAddress := common.HexToAddress("051d16ac5131c403448d77554ee1cdf9a052efa36ccec3e228ec00d433fcc4ef")
+	toAddress := common.HexToAddress("")
 	// 트랜잭션 생성
 	var data []byte
 	tx := types.NewTransaction(nonce, toAddress, value, gasLimit, gasPrice, data)
